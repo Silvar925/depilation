@@ -161,13 +161,22 @@ header nav ul li a:hover {
     align-items: center;
     background-color: #F3EFEE;
     padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 
-.services-title h1 {
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 80px;
+}
+
+.title h1 {
+    display: flex;
     color: #C6A48C;
     font-size: 44px;
-    margin-bottom: 80px;
+    font-family: var(--palatino);
 }
 
 
@@ -176,6 +185,60 @@ header nav ul li a:hover {
     gap: 27px;
     position: relative;
     text-align: center;
+}
+
+.services_card_1 {
+    background-image: url("/img/laserHairRemoval.png");
+}
+
+
+.services_card_3 {
+    background-image: url("/img/waxing.png");
+}
+
+.services_card_3 h1 {
+    margin-bottom: 44px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 514px;
+    height: 652px;
+}
+
+.services_card_2 {
+    background-image: url("/img/sugaring.png");
+}
+
+.services_card_2 h1 {
+    margin-bottom: 44px;
+}
+
+.services_list_card h1 {
+    font-family: var(--palatino);
+    font-size: 36px;
+    color: #987861;
+}
+
+.service_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #C6A48C;
+    margin-bottom: 44px;
+    padding: 10px;
+    width: 274px;
+    border-radius: 50px;
+    height: 62px;
+    margin-top: 24px;
+}
+
+.service_button:hover {
+    background-color: #C6A48C;
+    color: white;
 }
 
 .training {
@@ -250,6 +313,8 @@ header nav ul li a:hover {
     display: flex;
     gap: 87px;
 }
+
+.tra
 
 .training-row_right .training-row_info h2 {
     width: 721px;
@@ -453,6 +518,7 @@ footer hr {
 
 .laserRemoval_box_2 {
     display: flex;
+    gap: 270px;
 }
 
 .laserRemoval_box_2_left h1 {
@@ -472,3 +538,310 @@ footer hr {
     margin-bottom: 20px;
 }
 
+.laserRemoval_box_2_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.laserRemoval_box_2_right_text {
+    display: flex;
+    gap: 22px;
+}
+
+.laserRemoval_box_2_right_text p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.laserRemoval_box_2_right {
+    margin-top: 80px;
+}
+
+.laserRemoval_box_1_right h1 {
+    font-family: var(--literature);
+    font-size: 30px;
+}
+
+.laserRemoval_box_2_right_bottom {
+    margin-top: 124px;
+}
+
+.laserRemoval_box_2_right_upper h1 {
+    font-family: var(--literature);
+    font-size: 30px;
+    margin-bottom: 32px;
+}
+
+.laserRemoval_box_2_right_bottom h1 {
+    font-family: var(--literature);
+    font-size: 30px;
+    margin-bottom: 32px;
+}
+
+.laserRemoval_box_2_right_bottom p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.laserRemoval_box_3 {
+    display: flex;
+    margin-top: 80px;
+    gap: 170px;
+}
+
+.laserRemoval_box_3 h1 {
+    margin-bottom: 32px;
+}
+
+.laserRemoval_box_3 p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.laserRemoval_box_3_left h1 {
+    font-family: var(--literature);
+    font-size: 30px;
+    width: 720px;
+}
+
+.laserRemoval_box_3_left p {
+    display: flex;
+    flex-direction: column;
+    width: 624px;   
+}
+
+.laserRemoval_box_3_right h1 {
+    font-family: var(--literature);
+    font-size: 30px;
+}
+
+.before-after {
+    background-color: #DBD7D2;
+    height: 779px;
+}
+
+.feedback {
+    height: 400px;
+    background-color:#F3EFEE;
+}
+
+.gift-certificates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+.gift-certificates_title h1 {
+    font-family: var(--literature);
+    font-size: 30px;
+    color: #C6A48C;
+    font-size: 48px;
+}
+
+.sugaring {
+    display: flex;
+    padding-top: 187px;
+    justify-content: center;
+    gap: 84px;
+}
+
+.sugaring h1 {
+    color: #C6A48C;
+    font-size: 48px;
+    font-family: var(--literature);
+
+}
+
+.sugaring_left_1 img {
+    margin-top: 37px;
+}
+
+.sugaring_left_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sugaring_left_2 h1 {
+    margin-top: 80px;
+    color: #000;
+    font-size: 40px;
+    width: 626px;
+    margin-bottom: 43px;
+}
+
+
+.sugaring_left_2_card_title {
+    display: flex;
+    gap: 20px;
+    width: 624px;
+}
+
+.sugaring_left_2_card p {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 624px;
+}
+
+.sugaring_left_2_card h2 {
+    font-size: 20px;   
+}
+
+
+.sugaring_right {
+    margin-top: 37px;
+}
+
+.sugaring_right p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 845px;
+}
+
+.sugaring_right_2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 34px;
+}
+
+.sugaring_right_2 h1 {
+    font-size: 40px;
+    color: #000;
+    font-family: var(--literature);
+}
+
+.sugaring_right_2_card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sugaring_right_2_card_title {
+    display: flex;
+    margin-top: 32px;
+    gap: 20px;
+}
+
+.waxing {
+    display: flex;
+    padding-top: 167px;
+    gap: 64px;
+    justify-content: center;
+}
+
+
+.waxing_left {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.waxing_left_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.waxing_left_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    width: 624px;
+}
+
+.waxing_left_2_card_title {
+    display: flex;
+    gap: 20px;
+}
+
+.waxing_left_2_card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.waxing_left_2_card p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.waxing_right_1 p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 845px;
+}
+
+.waxing_right_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.waxing_right_2 h1 {
+    margin-top: 44px;
+    margin-bottom: 80px;
+    font-size: 40px;
+    font-family: var(--literature);
+    width: 610px;
+}
+
+.waxing_right_2 p {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 869px;
+}
+
+.waxing_right_3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.waxing_right_3 h1 {
+    font-family: var(--literature);
+    font-size: 40px;
+    margin-bottom: 56px;
+}
+
+.waxing_right_3 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+
+.waxing_right_3_card {
+    display: flex;
+    gap: 31px;
+}
+
+.waxing_right_3_list_card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 31px;
+    gap: 30px;
+    width: 624px;
+    margin-left: 119px;
+}
+
+.waxing_right_4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.waxing_right_4  {
+    margin-top: 85px;
+}
+
+.waxing_right_4 h1 {
+    font-family: var(--literature);
+    font-size: 40px;
+    width: 643px;
+    margin-bottom: 32px;
+}
+
+.waxing_right_4 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 624px;
+}
