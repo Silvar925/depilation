@@ -188,12 +188,12 @@ header nav ul li a:hover {
 }
 
 .services_card_1 {
-    background-image: url("/img/laserHairRemoval.png");
+    background-image: url("img/laserHairRemoval.png");
 }
 
 
 .services_card_3 {
-    background-image: url("/img/waxing.png");
+    background-image: url("img/waxing.png");
 }
 
 .services_card_3 h1 {
@@ -210,7 +210,7 @@ header nav ul li a:hover {
 }
 
 .services_card_2 {
-    background-image: url("/img/sugaring.png");
+    background-image: url("img/sugaring.png");
 }
 
 .services_card_2 h1 {
