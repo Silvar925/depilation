@@ -1,0 +1,600 @@
+/* Адаптивый дизайн для главной страницы */
+@media (min-width: 320px) and (max-width: 768px) { 
+    header {
+        display: none;
+    }
+
+    .services {
+        padding-top: 0;
+        padding-top: 20px;
+    }
+
+    .services_list_card {
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+
+    .services_list_card .card {
+        width: 280px;
+        border: 1px solid #C6A48C;
+        border-radius: 20px;
+    }
+
+    .services_list_card .card h1 {
+        font-size: 30px;
+    }
+
+    .service_button {
+        width: auto;
+    }
+
+    .title {
+        margin-bottom: 30px;
+    }
+    .title img {
+        display: none;
+    }
+
+    .training {
+        padding-top: 20px;
+        justify-content: center;
+    }
+
+    .training img {
+        /* display: none; */
+        width: 300px;
+    }
+
+    .training-row_left {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .training-row_info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .training-row_info h2 {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .training-row_info p {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .btnLearnMore {
+        margin-top: 70px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .training-row_right {
+        display: block;
+    }
+
+    .desktop_image {
+        display: none;
+    }
+
+    .training-row_right_mobile {
+        display: block;
+    }
+
+
+    .graduates {
+        display: none;
+    }
+
+    .additional-information {
+        flex-direction: column;
+    }
+
+    .additional-information_left_background {
+        width: auto;
+        height: 431px;
+    }
+
+    .additional-information_left_background img {
+        width: 310px;
+        height: auto;
+    }
+
+    .additional-information_right h1 {
+        font-size: 40px;
+    }
+
+    .additional-information_right p {
+        font-size: 18px;
+    }
+
+    .sendInWhatsApp {
+        margin-top: 0;
+        margin-top: 20px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .banner-box {
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1200px) {
+    header {
+        display: none;
+    }
+
+    .services {
+        padding-top: 0;
+        padding-top: 20px;
+    }
+
+    .services_list_card {
+        justify-content: center;
+    }
+
+    .services_list_card .card {
+        border: 1px solid #C6A48C;
+        border-radius: 20px;
+    }
+
+    .services_list_card .card h1 {
+        font-size: 30px;
+    }
+
+    .card {
+        display: flex;
+        width: 200px;
+        /* flex-direction: column; */
+    }
+
+    .service_button {
+        width: auto;
+    }
+
+    .title {
+        margin-bottom: 30px;
+    }
+    .title img {
+        display: none;
+    }
+
+    .training {
+        padding-top: 20px;
+        justify-content: center;
+    }
+
+    .training img {
+        /* display: none; */
+        width: 300px;
+    }
+
+    .training-row_left {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .training-row_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .training-row_info h2 {
+        font-size: 20px;
+        /* width: 300px; */
+    }
+
+    .training-row_info p {
+        font-size: 16px;
+        height: 20px;
+    }
+
+    .btnLearnMore {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .training-row_right {
+        display: block;
+    }
+
+    .desktop_image {
+        display: none;
+    }
+
+    .training-row_right_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .training-row_right_mobile {
+        margin-top: 40px;
+    }    
+
+
+    .graduates {
+        display: none;
+    }
+
+    .additional-information {
+        /* flex-direction: column; */
+    }
+
+    .additional-information_left_background {
+        width: auto;
+        height: 431px;
+    }
+
+    .additional-information_left_background img {
+        width: 310px;
+        height: auto;
+    }
+
+    .additional-information_right h1 {
+        font-size: 40px;
+    }
+
+    .additional-information_right p {
+        font-size: 18px;
+    }
+
+    .sendInWhatsApp {
+        margin-top: 0;
+        margin-top: 20px;
+    }
+
+    .additional-information_right_left {
+        display: none;
+    }
+
+    .additional-information_right_left_mobile {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 120px;
+    }
+
+    .connection img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .additional-information_right_left_mobile_container {
+        display: none;
+        flex-direction: column;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .banner-box {
+        display: none;
+    }
+}
+
+/* Адпативный дизайн для лазерной депиляции */
+@media (min-width: 320px) and (max-width: 768px) {
+    .laserRemoval {
+        padding: 0;
+        align-items: center;
+    }
+
+    .laserRemoval_box_1 {
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .laserRemoval_box_1_left {
+        align-items: center;
+    }
+
+    .laserRemoval_box_1_left h1 {
+        font-size: 25px;
+    }
+
+    .laserRemoval_box_1_left img {
+        width: 300px;
+    }
+
+    .laserRemoval_box_1 p {
+        width: 400px;
+    }
+
+    .laserRemoval_box_1_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .laserRemoval_box_1_right {
+        align-items: center;
+    }
+
+    .laserRemoval_box_1_right h1 {
+        width: auto;
+        font-size: 25px;
+    }
+
+    .laserRemoval_box_1_right p {
+        font-size: 18px;
+        width: auto;
+    }
+
+    .laserRemoval_box_2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .laserRemoval_box_2_right {
+        gap: 0px;
+    }
+
+    .laserRemoval_box_2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .laserRemoval_box_2_left h1 {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .laserRemoval_box_2_left_b {
+        width: auto;
+    }
+
+
+    .laserRemoval_box_3 {
+        display: none;
+    }
+
+    .before-after {
+        display: none;
+    }
+
+    .feedback {
+        display: none;
+    }
+
+    .gift-certificates {
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1200px) {
+    .laserRemoval {
+        padding: 0;
+        align-items: center;
+    }
+
+    .laserRemoval_box_1 {
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .laserRemoval_box_1_left {
+        align-items: center;
+    }
+
+    .laserRemoval_box_1_left h1 {
+        font-size: 25px;
+    }
+
+    .laserRemoval_box_1_left img {
+        width: auto;
+    }
+
+    .laserRemoval_box_1 p {
+        width: 400px;
+    }
+
+    .laserRemoval_box_1_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .laserRemoval_box_1_right {
+        align-items: center;
+    }
+
+    .laserRemoval_box_1_right h1 {
+        width: auto;
+        font-size: 25px;
+    }
+
+    .laserRemoval_box_1_right p {
+        font-size: 18px;
+        width: auto;
+    }
+
+    .laserRemoval_box_2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .laserRemoval_box_2_right {
+        gap: 0px;
+    }
+
+    .laserRemoval_box_2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .laserRemoval_box_2_left h1 {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .laserRemoval_box_2_left_b {
+        width: auto;
+    }
+
+
+    .laserRemoval_box_3 {
+        display: none;
+    }
+
+    .before-after {
+        display: none;
+    }
+
+    .feedback {
+        display: none;
+    }
+
+    .gift-certificates {
+        display: none;
+    }
+}
+
+/*Адаптивный дизайн для шугаринга*/
+@media (min-width: 320px) and (max-width: 768px) {
+    header {
+        display: none;
+    }
+
+    .sugaring {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .sugaring_left_1 img {
+        width: 300px;
+    }
+
+    .sugaring_left_2 h1 {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .sugaring_left_2_card .sugaring_left_2_card_title {
+        width: 300px;
+    }
+
+    .sugaring_left_2_card p {
+        width: 300px;
+    }
+
+    .sugaring_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sugaring_right p {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .sugaring_right_2 {
+        align-items: center;
+    }
+
+    .sugaring_right_2 h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sugaring_right_2_card {
+        align-items: center;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1200px) {
+    header {
+        display: none;
+    }
+
+    .sugaring {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .sugaring_left_1 img {
+        width: 300px;
+    }
+
+    .sugaring_left_2 {
+        /* flex-direction: column; */
+    }
+
+    .sugaring_left_2 h1 {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .sugaring_left_2_card .sugaring_left_2_card_title {
+        width: 300px;
+    }
+
+    .sugaring_left_2_card p {
+        width: 300px;
+    }
+
+    .sugaring_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sugaring_right p {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .sugaring_right_2 {
+        align-items: center;
+    }
+
+    .sugaring_right_2 h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sugaring_right_2_card {
+        align-items: center;
+    }
+}
+
+/* Адаптивный дизайн для восковой депиляции*/
+@media (min-width: 320px) and (max-width: 768px) {
+    header {
+        display: none;
+    }
+
+    .waxing {
+        padding-top: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .waxing_left_2_card h1 {
+        font-size: 20px;
+    }
+
+    .waxing_right {
+        display: none;
+    }
+}
