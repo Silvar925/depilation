@@ -215,6 +215,11 @@ header nav ul li a:hover {
     display: flex;
 }
 
+.card a{
+    text-decoration: none;
+    color: #987861;
+}
+
 .services_card_2 {
     background-image: url("../img/sugaring.png");
     text-transform: uppercase;
