@@ -188,17 +188,18 @@ header nav ul li a:hover {
 }
 
 .services_card_1 {
-    background-image: url("img/laserHairRemoval.png");
+    background-image: url("../img/laserHairRemoval.png");
+    text-transform: uppercase;
+    padding-bottom: 30px;
 }
 
 
 .services_card_3 {
-    background-image: url("img/waxing.png");
+    background-image: url("../img/waxing.png");    
+    text-transform: uppercase;
+    padding-bottom: 30px;
 }
 
-.services_card_3 h1 {
-    margin-bottom: 44px;
-}
 
 .card {
     display: flex;
@@ -207,14 +208,17 @@ header nav ul li a:hover {
     align-items: center;
     width: 514px;
     height: 652px;
+    cursor: pointer;
+}
+
+.card:hover .service_button{
+    display: flex;
 }
 
 .services_card_2 {
-    background-image: url("img/sugaring.png");
-}
-
-.services_card_2 h1 {
-    margin-bottom: 44px;
+    background-image: url("../img/sugaring.png");
+    text-transform: uppercase;
+    padding-bottom: 30px;
 }
 
 .services_list_card h1 {
@@ -224,11 +228,10 @@ header nav ul li a:hover {
 }
 
 .service_button {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     border: 1px solid #C6A48C;
-    margin-bottom: 44px;
     padding: 10px;
     width: 274px;
     border-radius: 50px;
@@ -352,6 +355,14 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     background-color: white;
+    width: 100%;
+}
+
+.additional-information_left{
+    width: 50%;
+}
+.additional-information_right{
+    width: 50%;
 }
 
 .additional-information_left_background {
