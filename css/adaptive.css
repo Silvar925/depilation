@@ -1,18 +1,28 @@
 /* Адаптивый дизайн для главной страницы */
 @media (min-width: 320px) and (max-width: 768px) { 
-    header {
-        display: none;
-    }
-
-    .services {
-        padding-top: 0;
-        padding-top: 20px;
-    }
-
-    .services_list_card {
+    header nav ul {
         flex-direction: column;
+        gap: 10px;
         align-items: center;
-        width: 300px;
+    }
+    
+    header nav ul li a {
+        color: black;
+        font-size: 14px;
+    }
+    
+    .centerBlock {
+        display: block;
+        border: 0;
+    }
+    
+    .centerBlock h1 {
+        color: black;
+        margin-bottom: 10px;
+    }
+    
+    .services {
+        padding-top: 200px;
     }
 
     .services_list_card .card {
@@ -103,6 +113,10 @@
         height: auto;
     }
 
+    .additional-information_right{
+        width: auto;
+    }
+
     .additional-information_right h1 {
         font-size: 40px;
     }
@@ -123,13 +137,12 @@
     .banner-box {
         display: none;
     }
+
+    
+
 }
 
 @media (min-width:768px) and (max-width: 1200px) {
-    header {
-        display: none;
-    }
-
     .services {
         padding-top: 0;
         padding-top: 20px;
@@ -225,8 +238,9 @@
         display: none;
     }
 
-    .additional-information {
-        /* flex-direction: column; */
+    .laserRemoval_box_2_left_b1_title {
+        display: flex;
+        flex-direction: column;
     }
 
     .additional-information_left_background {
@@ -239,6 +253,9 @@
         height: auto;
     }
 
+    .additional-information_right{
+        width: auto;
+    }
     .additional-information_right h1 {
         font-size: 40px;
     }
@@ -253,7 +270,8 @@
     }
 
     .additional-information_right_left {
-        display: none;
+        gap: 10px;
+        margin-top: 20px;
     }
 
     .additional-information_right_left_mobile {
@@ -285,8 +303,11 @@
 /* Адпативный дизайн для лазерной депиляции */
 @media (min-width: 320px) and (max-width: 768px) {
     .laserRemoval {
-        padding: 0;
+        padding-top: 180px;
         align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
     }
 
     .laserRemoval_box_1 {
@@ -302,7 +323,8 @@
     }
 
     .laserRemoval_box_1_left h1 {
-        font-size: 25px;
+        font-size: 20px;
+        width: auto;
     }
 
     .laserRemoval_box_1_left img {
@@ -347,6 +369,10 @@
         flex-direction: column;
         gap: 10px;
     }
+    
+    .laserRemoval_box_2_left {
+        /* width: auto; */
+    }
 
     .laserRemoval_box_2_left h1 {
         font-size: 20px;
@@ -357,6 +383,45 @@
         width: auto;
     }
 
+    .laserRemoval_box_2_right_text {
+        margin-bottom: 20px;
+        gap: 10px;
+    }
+
+    .laserRemoval_box_2_left_b1_title {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .laserRemoval_box_2_right_upper h1 {
+        font-size: 20px;
+    }
+
+    .laserRemoval_box_2_left_b1_title img {
+        border: 1px solid #C6A48C;
+        padding: 20px;
+        border-radius: 50%;
+    }
+
+    .laserRemoval_box_2_right_text img {
+        border: 1px solid #C6A48C;
+        padding: 20px;
+        border-radius: 50%;
+        height: 50px;
+    }
+
+    .laserRemoval_box_2_right_text_phone {
+        border: 1px solid #C6A48C;
+        border-radius: 50%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+    }
 
     .laserRemoval_box_3 {
         display: none;
@@ -469,14 +534,11 @@
 
 /*Адаптивный дизайн для шугаринга*/
 @media (min-width: 320px) and (max-width: 768px) {
-    header {
-        display: none;
-    }
-
     .sugaring {
         flex-direction: column;
         align-items: center;
-        padding-top: 0;
+        padding-top: 200px;
+        gap: 20px;
     }
 
     .sugaring_left_1 img {
@@ -522,9 +584,6 @@
 }
 
 @media (min-width:768px) and (max-width: 1200px) {
-    header {
-        display: none;
-    }
 
     .sugaring {
         flex-direction: column;
@@ -534,10 +593,6 @@
 
     .sugaring_left_1 img {
         width: 300px;
-    }
-
-    .sugaring_left_2 {
-        /* flex-direction: column; */
     }
 
     .sugaring_left_2 h1 {
@@ -580,21 +635,61 @@
 
 /* Адаптивный дизайн для восковой депиляции*/
 @media (min-width: 320px) and (max-width: 768px) {
-    header {
-        display: none;
-    }
-
     .waxing {
-        padding-top: 0;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
+        padding-top: 200px;
     }
 
-    .waxing_left_2_card h1 {
-        font-size: 20px;
+    .waxing_left img {
+        width: 300px;
+    }
+    
+    
+    .waxing_left_2 h1 {
+        font-size: 16px;
+        width: 300px;
+    }
+    
+    .waxing_left_2_card h2 {
+        width: 300px;
+    }
+
+    .waxing_left_2_card p {
+        width: 300px;
+    }
+    
+    .waxing_left_2_card_title {
+        display: block;
     }
 
     .waxing_right {
-        display: none;
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .waxing_right p {
+        width: 300px;
+    }
+
+    .waxing_right_2 h1 {
+        width: 300px;
+    }
+
+    .waxing_right_3 h1 {
+        width: 300px;
+    }
+
+    .waxing_right_3_list_card {
+        margin-left: 0;
+    }
+
+    .waxing_right_3_list_card p {
+        width: 300px;
+    }
+
+    .waxing_right_4 h1 {
+        width: 300px;
+        font-size: 20px;
     }
 }

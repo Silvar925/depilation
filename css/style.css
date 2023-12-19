@@ -531,7 +531,7 @@ footer hr {
 .laserRemoval {
     display: flex;
     flex-direction: column;
-    padding: 183px 143px 0;
+    padding: 183px 143px 144px;
 }
 
 .laserRemoval_box_1 {
@@ -583,8 +583,20 @@ footer hr {
 }
 
 .laserRemoval_box_2_left_b1_title {
+    display: flex;
     margin-top: 32px;
     margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.laserRemoval_box_2_left_b1_title img {
+    padding: 10px;
+    border: 1px solid #C6A48C;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
 
 .laserRemoval_box_2_right {
@@ -692,6 +704,7 @@ footer hr {
     padding-top: 187px;
     justify-content: center;
     gap: 84px;
+    padding-bottom: 144px;
 }
 
 .sugaring h1 {
@@ -722,8 +735,17 @@ footer hr {
 
 .sugaring_left_2_card_title {
     display: flex;
-    gap: 20px;
     width: 624px;
+    align-items: center;
+    gap: 10px;
+}
+
+.sugaring_left_2_card_title img {
+    padding: 10px;
+    border: 1px solid #987861;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
 
 .sugaring_left_2_card p {
@@ -769,6 +791,7 @@ footer hr {
     display: flex;
     margin-top: 32px;
     gap: 20px;
+    align-items: center;
 }
 
 .waxing {
@@ -776,6 +799,7 @@ footer hr {
     padding-top: 167px;
     gap: 64px;
     justify-content: center;
+    padding-bottom: 144px;
 }
 
 
@@ -801,6 +825,15 @@ footer hr {
 .waxing_left_2_card_title {
     display: flex;
     gap: 20px;
+    align-items: center;
+}
+
+.waxing_left_2_card_title img {
+    padding: 10px;
+    border: 1px solid #987861;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
 
 .waxing_left_2_card {
@@ -870,7 +903,7 @@ footer hr {
     margin-top: 31px;
     gap: 30px;
     width: 624px;
-    margin-left: 119px;
+    margin-left: 80px;
 }
 
 .waxing_right_4 {
@@ -901,4 +934,21 @@ footer hr {
 
 .additional-information_right_left_mobile {
     display: none;
+}
+
+.laserRemoval_box_2_right_text_phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #C6A48C;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #987861;
+}
+
+.laserRemoval_box_2_right_text {
+    margin-bottom: 20px;
 }
