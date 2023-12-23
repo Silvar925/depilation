@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/adaptive.css">
@@ -137,7 +138,8 @@
 
                 <div class="training-row_info">
                     <h2>
-                        ПОВЫШЕНИЕ КВАЛИФИКАЦИИ ПО НАПРАВЛЕНИЯМ: «СКОРОСТНЫЕ ТЕХНИКИ В САХАРНОЙ ДЕПИЛЯЦИИ», «КУРС ПО БИКИНИ»
+                        ПОВЫШЕНИЕ КВАЛИФИКАЦИИ ПО НАПРАВЛЕНИЯМ: «СКОРОСТНЫЕ ТЕХНИКИ В САХАРНОЙ ДЕПИЛЯЦИИ», «КУРС ПО
+                        БИКИНИ»
                     </h2>
 
                     <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -160,14 +162,29 @@
     </section>
 
     <section class="graduates">
-        <div class="graduates-title">
+        <div class="title title-graduates">
+            <img src="img/point.svg" alt="">
+            <img src="img/line2.png" alt="">
+            <img src="img/point.svg" alt="">
             <h1>ВЫПУСКНИКИ ОБУЧЕНИЯ</h1>
+            <img src="img/point.svg" alt="">
+            <img src="img/line2.png" alt="">
+            <img src="img/point.svg" alt="">
         </div>
 
-        <div class="graduates-list">
-            <h1>ТУТ БУДЕТ СЛАЙДЕР Ж ЕСТЬ</h1>
 
+        <div class="slider">
+            <div class="swiper-container mainSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
         </div>
+
 
     </section>
 
@@ -175,7 +192,7 @@
     </section>
 
     <section class="additional-information" id="additional-information">
-        
+
 
         <div class="additional-information_left">
             <div class="additional-information_left_background">
@@ -218,12 +235,12 @@
                     <img src="img/whatsap.svg" alt="">
                     8 000 000 00 00
                 </div>
-    
+
                 <div class="connection">
                     <img src="img/instagram.svg" alt="#">
                     @dia_shugar
                 </div>
-    
+
                 <div class="connection">
                     <img src="img/telegram.svg" alt="#">
                     @DIA_SHUGAR
@@ -270,10 +287,23 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.mainSwiper', {
+            slidesPerView: 3,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+
+
     <script src="js/header.js"></script>
     <script src="js/footer.js"></script>
     <script src="js/main.js"></script>
-
 </body>
 
 </html>

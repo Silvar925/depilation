@@ -195,7 +195,7 @@ header nav ul li a:hover {
 
 
 .services_card_3 {
-    background-image: url("../img/waxing.png");    
+    background-image: url("../img/waxing.png");
     text-transform: uppercase;
     padding-bottom: 30px;
 }
@@ -211,11 +211,11 @@ header nav ul li a:hover {
     cursor: pointer;
 }
 
-.card:hover .service_button{
+.card:hover .service_button {
     display: flex;
 }
 
-.card a{
+.card a {
     text-decoration: none;
     color: #987861;
 }
@@ -325,9 +325,7 @@ header nav ul li a:hover {
     gap: 87px;
 }
 
-.tra
-
-.training-row_right .training-row_info h2 {
+.tra .training-row_right .training-row_info h2 {
     width: 721px;
     height: 195px;
 }
@@ -363,10 +361,11 @@ header nav ul li a:hover {
     width: 100%;
 }
 
-.additional-information_left{
+.additional-information_left {
     width: 50%;
 }
-.additional-information_right{
+
+.additional-information_right {
     width: 50%;
 }
 
@@ -516,7 +515,8 @@ footer hr {
 }
 
 .bottom_footer_icons img {
-    max-width: 100%; /* Чтобы избежать изменения размеров изображения */
+    max-width: 100%;
+    /* Чтобы избежать изменения размеров изображения */
 }
 
 .secondary-pages h1 {
@@ -668,7 +668,7 @@ footer hr {
 .laserRemoval_box_3_left p {
     display: flex;
     flex-direction: column;
-    width: 624px;   
+    width: 624px;
 }
 
 .laserRemoval_box_3_right h1 {
@@ -683,7 +683,7 @@ footer hr {
 
 .feedback {
     height: 400px;
-    background-color:#F3EFEE;
+    background-color: #F3EFEE;
 }
 
 .gift-certificates {
@@ -692,6 +692,7 @@ footer hr {
     align-items: center;
     height: 500px;
 }
+
 .gift-certificates_title h1 {
     font-family: var(--literature);
     font-size: 30px;
@@ -755,7 +756,7 @@ footer hr {
 }
 
 .sugaring_left_2_card h2 {
-    font-size: 20px;   
+    font-size: 20px;
 }
 
 
@@ -911,7 +912,7 @@ footer hr {
     flex-direction: column;
 }
 
-.waxing_right_4  {
+.waxing_right_4 {
     margin-top: 85px;
 }
 
@@ -951,4 +952,27 @@ footer hr {
 
 .laserRemoval_box_2_right_text {
     margin-bottom: 20px;
+}
+
+.slider {
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 0 150px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.swiper-wrapper{
+    width: 100%;
+}
+
+.swiper-slide{
+    width: 100%;
 }
