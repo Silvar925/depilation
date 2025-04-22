@@ -1,0 +1,84 @@
+.principle {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.principle__inner {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.pros-cons {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.pros-cons__props,
+.pros-cons__cons {
+    width: 50%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.pros-cons__list, .pros-cons__props {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.pros-cons__props-additional, .pros-cons__props-additional {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.principle__img {
+    max-width: 50%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.principle__description {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.principle__description-list, .pros-cons__props-additional-list {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    list-style: circle;
+    margin-left: 20px;
+}
+
+.pros-cons__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .principle__img {
+        max-width: 100%;
+    }
+
+    .principle {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .pros-cons {
+        flex-direction: column;
+    }
+
+    .pros-cons__props,
+    .pros-cons__cons {
+        width: 100%;
+    }
+}

@@ -71,11 +71,6 @@ li {
     flex-direction: column;
 }
 
-section {
-    width: 50%;
-    padding: 0;
-}
-
 .advantages__list,
 .process__list {
     display: flex;
