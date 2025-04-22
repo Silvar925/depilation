@@ -1,0 +1,138 @@
+.second-main {
+    margin-top: 30px;
+    display: flex;
+    gap: clamp(30px, 2vw, 100px);
+    padding: 0 clamp(2vw, 4vw + 1rem, 9vw);
+}
+
+.section-width {
+    width: 50%;
+    padding: 0;
+}
+
+section p,
+li {
+    font-family: 'Montserrat';
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 30px;
+}
+
+.second__main-title {
+    padding: 0 clamp(2vw, 4vw + 1rem, 9vw);
+    font-family: var(--literature);
+    font-size: clamp(1.5rem, 2vw, 2.3rem);
+    text-transform: uppercase;
+    color: var(--accent);
+    text-align: center;
+}
+
+
+.section-list-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.weight-font {
+    font-weight: 600;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-family: var(--literature);
+    font-size: clamp(1.5rem, 2vw, 2rem);
+    line-height: 45px;
+}
+
+.page-title {
+    margin-top: 30px;
+    font-size: clamp(1.8rem, 2rem, 2.3rem);
+    text-align: center;
+    color: var(--accent);
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .second-main {
+        flex-direction: column;
+    }
+
+    .section-width {
+        width: 100%;
+    }
+}
+
+
+/* ----------------- */
+.advantages,
+.process {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+section {
+    width: 50%;
+    padding: 0;
+}
+
+.advantages__list,
+.process__list {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.advantages__item,
+.process__item {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+section p {
+    font-family: 'Montserrat';
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 30px;
+}
+
+
+.advantages {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.advantages__item-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.advantages__img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.advantages__list-item {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.advantages__list,
+.temp {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .waxing__main {
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+    }
+}

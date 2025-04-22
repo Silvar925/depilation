@@ -1,0 +1,146 @@
+.laser__main {
+    margin-top: 30px;
+}
+
+.principle {
+    display: flex;
+    gap: 50px;
+}
+
+.principle__inner {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.principle__img {
+    width: 40%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.principle__description {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.principle__description-list {
+    margin-left: 30px;
+}
+
+.principle__description-item {
+    list-style: circle;
+}
+
+
+.principle__title {
+    font-family: var(--literature);
+}
+
+.pros-cons {
+    display: flex;
+    gap: 100px;
+}
+
+.pros-cons__list {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.pros-cons__item {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.pros-cons__pros-item-title {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.pros-cons__pros-item-img {
+    border: 1px solid #EBC7B7;
+    padding: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.pros-cons__cons,
+.pros-cons__props {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.pros-cons__props-additional {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.pros-cons__props-additional-list {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-size: 1.25rem;
+    margin-left: 30px;
+}
+
+.pros-cons__props-additional-item {
+    list-style: circle;
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+    .principle {
+        flex-direction: column;
+    }
+
+    .principle__img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    section {
+        margin-bottom: 30px;
+    }
+
+    .principle {
+        flex-direction: column;
+    }
+
+    .principle__img {
+        width: 100%;
+    }
+
+    .pros-cons {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .pros-cons__cons,
+    .pros-cons__props {
+        width: 100%;
+    }
+
+    .pros-cons__props {
+        width: 100%;
+    }
+
+    .pros-cons__list {
+        width: 100%;
+    }
+}

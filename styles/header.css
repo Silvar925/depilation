@@ -1,0 +1,51 @@
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 30px clamp(2vw, 6vw, 9vw);
+    padding-bottom: 0;
+}
+
+.header__title {
+    color: white;
+    font-family: var(--literature);
+    font-size: 2rem;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+
+.header__menu-list {
+    width: 43%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu-link {
+    color: white;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-size: clamp(0.875rem, 0.5rem + 1vw, 1rem);
+    transition: var(--transition);
+}
+
+.header__menu-link:hover {
+    color: var(--accent);
+}
+
+.black-text-color {
+    color: black;
+}
+
+.bottom-blakc {
+    border-bottom: 1px solid black;
+}
+
+.second__pages {
+    position: static;
+}
