@@ -67,7 +67,7 @@
 
 .services__title {
     font-family: var(--palatino);
-    font-size: 2.75rem;
+    font-size: clamp(2.5rem, 3vw, 2.3rem);
     color: var(--accent);
     text-transform: uppercase;
 }
@@ -90,12 +90,9 @@
     justify-content: center;
     border: 1px solid var(--dark-accent);
     border-radius: 30px;
-}
-
-.services__card:hover {
-    .services__card-link {
-        display: inline;
-    }
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .services__card-inner {
@@ -108,21 +105,9 @@
 .service__card-title {
     color: var(--dark-accent);
     font-family: var(--palatino);
-    /* font-size: 2rem; */
-    font-size: clamp(1rem, 3vw, 2rem);
+    font-size: clamp(1rem, 5vw, 2rem);
     text-align: center;
     text-transform: uppercase;
-}
-
-.services__card-link {
-    display: none;
-    border: 1px solid var(--accent);
-    border-radius: 30px;
-    color: var(--dark-accent);
-    font-family: 'Montserrat';
-    text-transform: uppercase;
-    padding: 20px;
-    transition: var(--transition);
 }
 
 .services__card-link:hover {
@@ -130,8 +115,12 @@
     color: white;
 }
 
+.services__card-link:hover {
+    text-decoration: underline;
+    color: var(--accent);
+    padding-bottom: 10px;
+}
 
-/* training */
 .training {
     display: flex;
     gap: 80px;
@@ -146,7 +135,7 @@
 
 .training__item {
     display: flex;
-    gap: 80px;
+    gap: clamp(20px, 1.5vw, 80px);
 }
 
 .training__info-title {
@@ -159,7 +148,6 @@
 .training__info-text {
     margin-top: 20px;
     font-family: "Montserrat";
-    /* font-size: 1.25rem; */
     font-size: clamp(1rem, 2vw, 1.25rem);
     line-height: 34px;
 }
@@ -190,7 +178,7 @@
 }
 
 .connect__img-box {
-    padding-left: clamp(2vw, 6vw ,9vw );
+    padding-left: clamp(2vw, 6vw, 9vw);
     width: 1030px;
     background-color: var(--accent);
     border-radius: 0px 600px 0px 0px;
@@ -247,64 +235,4 @@
 .connect__button:hover {
     background-color: var(--dark-accent);
     color: white;
-}
-
-.footer {
-    padding: 0 clamp(2vw, 6vw, 9vw);
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 50px;
-}
-
-.footer hr {
-    margin: 20px 0;
-}
-
-.footer__menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer__menu-list {
-    display: flex;
-    gap: 20px;
-}
-
-.footer__menu-link {
-    font-size: 1.125rem;
-    font-family: 'Montserrat';
-    color: black;
-}
-
-.footer__menu-phone {
-    display: flex;
-    gap: 3px;
-    flex-direction: column;
-}
-
-.footer__phone {
-    font-family: 'Montserrat';
-    font-size: 2rem;
-    font-weight: 600;
-}
-
-.footer__phone-text {
-    font-family: 'Montserrat';
-    font-size: 1.25rem;
-    color: var(--dark-accent);
-}
-
-.footer__inner {
-    display: flex;
-}
-
-.footer__inner-list {
-    display: flex;
-    gap: 20px;
-}
-
-.footer__inner-item {
-    font-family: "Montserrat";
-    font-size: 1.25rem;
 }

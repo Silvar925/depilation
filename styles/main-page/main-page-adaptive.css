@@ -4,7 +4,7 @@
     }
 
     .training__img {
-        width: 50%;
+        max-width: 50%;
         object-fit: cover;
         border-radius: 30px;
     }
@@ -65,15 +65,35 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 912px) {
+    .hero__inner {
+        gap: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+    .services__list, .services__item, .services__card {
+        height: 100%;
+    }
+
+    section {
+        padding: 0 20px;
+    }
+}
+ 
 
 /* Телефон */
-@media (min-width: 320px) and (max-width:768px) {
+@media (min-width: 320px) and (max-width:900px) {
     .main {
         gap: 30px;
     }
 
+    .training {
+        gap: 30px;
+    }
+
     .training__img {
-        width: 100%;
+        max-width: 100%;
     }
 
     .header {
@@ -148,7 +168,7 @@
 
     .training__info-title,
     .training__info-text {
-        line-height: 24px;
+        line-height: 34px;
     }
 
     .training__item {
@@ -195,6 +215,10 @@
         margin: 0 20px;
     }
 
+    .connect__list {
+        padding-bottom: 20px;
+    }
+
     .footer {
         flex-direction: column;
         padding: 0 20px;
@@ -219,8 +243,4 @@
     .footer__menu-list {
         display: none;
     }
-}
-
-@media (min-width: 774px) and (max-width:1400px) {
-
 }
